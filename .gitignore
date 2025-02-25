@@ -1,0 +1,34 @@
+# Ignore local data directories
+/gitea/
+/mysql/
+
+# Ignore environment files with sensitive data
+.env
+*.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore compiled files
+*.pyc
+__pycache__/
+
+# Ignore npm/node modules
+node_modules/
