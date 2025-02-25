@@ -17,3 +17,13 @@ This repository provides a simple guide to install and configure Gitea (a self-h
    ```bash
    mkdir ~/gitea
    cd ~/gitea
+
+2. **Create docker-compose.yml**:
+   ```bash
+   nano docker-compose.yml
+   ```
+
+3. **Start container**:
+   ```bash
+   docker compose up -d
+   ```
